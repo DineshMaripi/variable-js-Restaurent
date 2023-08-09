@@ -25,7 +25,7 @@ fetch(dataURL)
   .then((data) => {
 
 	console.log(data)
- // Generate HTML for menu items dynamically
+ // Generate HTML for menu items dynamically 
     const menuContainer = document.getElementById('restaurant-menu');
 
     data.forEach((item) => {
