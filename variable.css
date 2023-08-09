@@ -1,0 +1,168 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: rgb(254, 135, 199);
+  background: linear-gradient(173deg, rgba(254, 135, 199, 1) 0%, rgba(254, 135, 199, 1) 98%);
+  height: auto;
+  width: 1300px;
+  overflow-x: hidden;
+  /* Hide horizontal scrollbar */
+  overflow-y: scroll;
+  /* Add vertical scrollbar */
+}
+
+.container {
+  margin: 25px 25px 0 25px;
+  height: 520px;
+  width: 1200px;
+  box-shadow: 20px;
+  background-color: rgb(39, 25, 130);
+}
+
+h1 {
+  color: azure;
+}
+
+.navbar {
+
+  padding: 15px;
+}
+
+.navbar-nav {
+  display: flex;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  justify-content: flex-end;
+}
+
+.nav-item {
+  margin-right: 50px;
+}
+
+.nav-link {
+  color: azure;
+  text-decoration: none;
+}
+
+.slider {
+  width: 100%;
+  margin: 70px 200px 150px 300px;
+  position: absolute;
+}
+
+.slider ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.slider li {
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  transition: opacity 1s ease-in-out;
+}
+
+img {
+  height: 300px;
+  width: 550px;
+}
+
+.slider li.active {
+  opacity: 1;
+}
+
+.slider .caption {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: #fff;
+  font-size: 18px;
+  padding: 10px;
+  text-align: center;
+}
+
+.fooditemcard {
+  margin: 0 25px 0 25px;
+  height: auto;
+  width: 1200px;
+  box-shadow: 20px;
+  background-color: rgb(39, 25, 130);
+
+}
+
+#heading {
+  color: azure;
+  text-align: center;
+}
+
+
+.menu-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  flex-direction: row;
+  align-items: center;
+  align-content: center;
+
+}
+
+.menu-item {
+  width: 300px;
+  display: inline-block;
+  align-items: center;
+  align-content: center;
+  margin: 30px;
+  border: 5px solid #ccc;
+  padding: 10px;
+
+}
+
+.item-image {
+  width: 250px;
+  height: 150px;
+ align-content: center;
+ transform: translate(10%, 0%);
+}
+
+.item-details {
+  display: flex;
+  flex-direction: column;
+}
+
+.item-name {
+  text-align: center;
+  font-size: 18px;
+  font-weight: bold;
+  color: azure;
+}
+
+.item-cost {
+  color: #333;
+  font-size: 14px;
+  color: azure;
+}
+
+.item-preparation-time {
+  color: #777;
+  font-size: 12px;
+  color: azure;
+}
+.item-button{
+  margin: 0;
+  /* position: absolute;
+  top: 90%;
+  left: 50%; */
+
+  transform: translate(150%, 30%);
+}
+.menu-item.highlight {
+border:solid 5px green
+}
