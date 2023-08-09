@@ -1,0 +1,2 @@
+# variable-js-Restaurent
+Welcome to the Variable Restaurants Delivery Application repository! This project is a web application developed using HTML, CSS, and JavaScript that aims to streamline the process of ordering food from various restaurants for delivery. The application provides a user-friendly interface for customers to browse restaurants, view menus, place orders, and track their deliveries in real-time.
