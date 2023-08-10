@@ -166,3 +166,7 @@ img {
 .menu-item.highlight {
 border:solid 5px green
 }
+.menu-item:hover {
+  background-color:#777; /* Change to the desired highlight color */
+  transform: scale(1.1); /* Increase the card size on hover */
+}
